@@ -20,6 +20,9 @@ const utils = {
       }
     });
   },
+  change() {
+    alert('hello');
+  },
 };
 
 export default utils;
