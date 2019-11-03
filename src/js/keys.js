@@ -310,6 +310,53 @@ const keys = {
       ru: ')',
     },
   },
+  192: {
+    isLetter: true,
+    keyName: {
+      en: '`',
+      ru: 'ё',
+    },
+  },
+  27: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  9: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  20: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  16: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  17: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  91: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  18: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  13: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  8: {
+    isLetter: false,
+    isSysBtn: true,
+  },
+  32: {
+    isLetter: false,
+    isSysBtn: true,
+  },
 
 };
 
