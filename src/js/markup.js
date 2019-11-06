@@ -1,12 +1,9 @@
-import state from './state';
 import utils from './utils';
-
-const { activelanguage } = utils;
-
+import state from './state';
 /* eslint-disable no-tabs */
 const markup = `
 <div class="container">
-  <button class="lang-btn">${activelanguage(state)}</button>
+  <button class="lang-btn">${localStorage.getItem('Lang') || utils.activelanguage(state)}</button>
   <textarea class="textarea" rows="6" cols="60" autofocus></textarea>
   <ul class="keyboard">
     <li class="key symbol" data-key='192'><span class="off">ё</span><span class="on">~</span></li>
@@ -36,7 +33,7 @@ const markup = `
 	  <li class="key letter" data-key='80'>p</li>
 	  <li class="key symbol" data-key='219'><span class="off">[</span><span class="on">{</span></li>
 	  <li class="key symbol" data-key='221'><span class="off">]</span><span class="on">}</span></li>
-	  <li class="key symbol lastitem"><span class="off" data-key='220'></span><span class="on">|</span></li>
+	  <li class="key symbol lastitem" data-key='220'><span class="off"></span><span class="on">|</span></li>
 	  <li class="key capslock" data-key='20'>caps lock</li>
 	  <li class="key letter" data-key='65'>a</li>
 	  <li class="key letter" data-key='83'>s</li>
