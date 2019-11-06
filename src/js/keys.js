@@ -310,6 +310,27 @@ const keys = {
       ru: ')',
     },
   },
+  189: {
+    isLetter: false,
+    keyName: {
+      en: '_',
+      ru: '_',
+    },
+  },
+  187: {
+    isLetter: false,
+    keyName: {
+      en: '+',
+      ru: '+',
+    },
+  },
+  220: {
+    isLetter: false,
+    keyName: {
+      en: '\'',
+      ru: 'ё',
+    },
+  },
   192: {
     isLetter: true,
     keyName: {
@@ -332,6 +353,7 @@ const keys = {
   16: {
     isLetter: false,
     isSysBtn: true,
+    isShift: false,
   },
   17: {
     isLetter: false,
@@ -342,6 +364,7 @@ const keys = {
     isSysBtn: true,
   },
   18: {
+    isAlt: false,
     isLetter: false,
     isSysBtn: true,
   },
